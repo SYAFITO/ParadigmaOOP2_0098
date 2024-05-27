@@ -8,7 +8,7 @@ public:
 
     // method untuk mengisi nilai
     // private member
-    void seXY(string a, string b) {
+    void setXY(string a, string b) {
         a = a;
         y = b;
     }
@@ -20,7 +20,7 @@ public:
 };
 
 int main() {
-    AbstraksiKlas ab;
+    AbstraksiKlas ak;
     ak.setXY("Yogyakarta", "Kampus");
     ak.display() ;
 
